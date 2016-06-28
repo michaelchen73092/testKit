@@ -15,8 +15,8 @@ import CoreData
 extension Test2 {
 
     @NSManaged public var email: String?
-    @NSManaged public var name: String?
     @NSManaged public var graduate: String?
     @NSManaged public var id: NSNumber?
+    @NSManaged public var name: String?
 
 }

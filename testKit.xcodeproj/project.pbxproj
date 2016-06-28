@@ -10,13 +10,13 @@
 		AC8C02D61D22106700F338BB /* testKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AC8C02D51D22106700F338BB /* testKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC8C02DD1D22106700F338BB /* testKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC8C02D21D22106700F338BB /* testKit.framework */; };
 		AC8C02E21D22106700F338BB /* testKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C02E11D22106700F338BB /* testKitTests.swift */; };
-		AC8C03041D2224DD00F338BB /* Test2+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C03021D2224DD00F338BB /* Test2+CoreDataProperties.swift */; };
-		AC8C03051D2224DD00F338BB /* Test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C03031D2224DD00F338BB /* Test2.swift */; };
 		AC8C03131D23256F00F338BB /* PersonsModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC8C03111D23256F00F338BB /* PersonsModel.xcdatamodeld */; };
 		AC8C03161D2327E000F338BB /* Persons+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C03141D2327E000F338BB /* Persons+CoreDataProperties.swift */; };
 		AC8C03171D2327E000F338BB /* Persons.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C03151D2327E000F338BB /* Persons.swift */; };
 		AC8C031A1D23282B00F338BB /* Doctors+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C03181D23282B00F338BB /* Doctors+CoreDataProperties.swift */; };
 		AC8C031B1D23282B00F338BB /* Doctors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C03191D23282B00F338BB /* Doctors.swift */; };
+		AC8C03221D2331E500F338BB /* Test2+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C03201D2331E500F338BB /* Test2+CoreDataProperties.swift */; };
+		AC8C03231D2331E500F338BB /* Test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C03211D2331E500F338BB /* Test2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +36,13 @@
 		AC8C02DC1D22106700F338BB /* testKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8C02E11D22106700F338BB /* testKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testKitTests.swift; sourceTree = "<group>"; };
 		AC8C02E31D22106700F338BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC8C03021D2224DD00F338BB /* Test2+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Test2+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		AC8C03031D2224DD00F338BB /* Test2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test2.swift; sourceTree = "<group>"; };
 		AC8C03121D23256F00F338BB /* PersonsModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PersonsModel.xcdatamodel; sourceTree = "<group>"; };
 		AC8C03141D2327E000F338BB /* Persons+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Persons+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		AC8C03151D2327E000F338BB /* Persons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persons.swift; sourceTree = "<group>"; };
 		AC8C03181D23282B00F338BB /* Doctors+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Doctors+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		AC8C03191D23282B00F338BB /* Doctors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Doctors.swift; sourceTree = "<group>"; };
+		AC8C03201D2331E500F338BB /* Test2+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Test2+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AC8C03211D2331E500F338BB /* Test2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,12 +67,12 @@
 		AC8C02C81D22106700F338BB = {
 			isa = PBXGroup;
 			children = (
+				AC8C03201D2331E500F338BB /* Test2+CoreDataProperties.swift */,
+				AC8C03211D2331E500F338BB /* Test2.swift */,
 				AC8C03181D23282B00F338BB /* Doctors+CoreDataProperties.swift */,
 				AC8C03191D23282B00F338BB /* Doctors.swift */,
 				AC8C03141D2327E000F338BB /* Persons+CoreDataProperties.swift */,
 				AC8C03151D2327E000F338BB /* Persons.swift */,
-				AC8C03021D2224DD00F338BB /* Test2+CoreDataProperties.swift */,
-				AC8C03031D2224DD00F338BB /* Test2.swift */,
 				AC8C03111D23256F00F338BB /* PersonsModel.xcdatamodeld */,
 				AC8C02D41D22106700F338BB /* testKit */,
 				AC8C02E01D22106700F338BB /* testKitTests */,
@@ -215,12 +215,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC8C03221D2331E500F338BB /* Test2+CoreDataProperties.swift in Sources */,
+				AC8C03231D2331E500F338BB /* Test2.swift in Sources */,
 				AC8C03161D2327E000F338BB /* Persons+CoreDataProperties.swift in Sources */,
 				AC8C03131D23256F00F338BB /* PersonsModel.xcdatamodeld in Sources */,
-				AC8C03041D2224DD00F338BB /* Test2+CoreDataProperties.swift in Sources */,
 				AC8C03171D2327E000F338BB /* Persons.swift in Sources */,
 				AC8C031A1D23282B00F338BB /* Doctors+CoreDataProperties.swift in Sources */,
-				AC8C03051D2224DD00F338BB /* Test2.swift in Sources */,
 				AC8C031B1D23282B00F338BB /* Doctors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +409,7 @@
 				AC8C02E81D22106700F338BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC8C02E91D22106700F338BB /* Build configuration list for PBXNativeTarget "testKitTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +418,7 @@
 				AC8C02EB1D22106700F338BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
