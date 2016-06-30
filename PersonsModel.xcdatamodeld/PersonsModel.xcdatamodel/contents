@@ -13,7 +13,7 @@
         <attribute name="doctorTwoStarNumber" optional="YES" attributeType="Integer 32" minValueString="0" defaultValueString="0" syncable="YES"/>
     </entity>
     <entity name="Persons" representedClassName="Persons" isAbstract="YES" syncable="YES">
-        <attribute name="birthday" optional="YES" attributeType="Date" minDateTimeInterval="0" defaultDateTimeInterval="-978235200" syncable="YES"/>
+        <attribute name="birthday" optional="YES" attributeType="Date" defaultDateTimeInterval="-978235200" syncable="YES"/>
         <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="favorateDoctors" optional="YES" attributeType="Transformable" valueTransformerName="" syncable="YES"/>
         <attribute name="firstname" optional="YES" attributeType="String" syncable="YES"/>
