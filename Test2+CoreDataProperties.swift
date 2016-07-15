@@ -18,5 +18,6 @@ extension Test2 {
     @NSManaged public var graduate: String?
     @NSManaged public var id: NSNumber?
     @NSManaged public var name: String?
+    @NSManaged public var queue: [String]?
 
 }
