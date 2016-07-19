@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15F34" minimumToolsVersion="Xcode 7.0">
+    <entity name="APNs" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="token" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
     <entity name="Doctors" representedClassName="Doctors" parentEntity="Persons" syncable="YES">
         <attribute name="doctorFiveStarNumber" optional="YES" attributeType="Integer 32" minValueString="0" defaultValueString="0" syncable="YES"/>
         <attribute name="doctorFourStarNumber" optional="YES" attributeType="Integer 32" minValueString="0" defaultValueString="0" syncable="YES"/>
@@ -33,10 +39,19 @@
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="queue" optional="YES" attributeType="Transformable" syncable="YES"/>
     </entity>
+    <entity name="TimeSlot" syncable="YES">
+        <attribute name="day" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="open" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="queue" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="reservation" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
     <elements>
+        <element name="APNs" positionX="18" positionY="126" width="128" height="105"/>
         <element name="Doctors" positionX="-27" positionY="18" width="128" height="195"/>
 
         <element name="Persons" positionX="18" positionY="63" width="128" height="165"/>
         <element name="Test2" positionX="54" positionY="153" width="128" height="120"/>
+        <element name="TimeSlot" positionX="18" positionY="126" width="128" height="120"/>
     </elements>
 </model>
