@@ -21,9 +21,11 @@
     <entity name="Persons" representedClassName="Persons" isAbstract="YES" syncable="YES">
         <attribute name="birthday" optional="YES" attributeType="Date" defaultDateTimeInterval="-978235200" syncable="YES"/>
         <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ethnicity" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="favorateDoctors" optional="YES" attributeType="Transformable" valueTransformerName="" syncable="YES"/>
         <attribute name="firstname" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="height" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
         <attribute name="imageLocal" optional="YES" attributeType="Binary" defaultValueString="Default" syncable="YES"/>
         <attribute name="imageRemoteUrl" optional="YES" attributeType="String" defaultValueString="Default" syncable="YES"/>
         <attribute name="isdoctor" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
@@ -31,6 +33,7 @@
         <attribute name="locationLatitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
         <attribute name="locationlongitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
         <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
     </entity>
     <entity name="Test2" representedClassName="Test2" syncable="YES">
         <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
@@ -49,8 +52,7 @@
     <elements>
         <element name="APNs" positionX="18" positionY="126" width="128" height="105"/>
         <element name="Doctors" positionX="-27" positionY="18" width="128" height="195"/>
-
-        <element name="Persons" positionX="18" positionY="63" width="128" height="165"/>
+        <element name="Persons" positionX="18" positionY="63" width="128" height="270"/>
         <element name="Test2" positionX="54" positionY="153" width="128" height="120"/>
         <element name="TimeSlot" positionX="18" positionY="126" width="128" height="120"/>
     </elements>
