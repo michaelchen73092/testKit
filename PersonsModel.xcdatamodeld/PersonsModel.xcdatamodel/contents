@@ -7,6 +7,7 @@
         <attribute name="token" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <entity name="Doctors" representedClassName="Doctors" parentEntity="Persons" syncable="YES">
+        <attribute name="doctorCellPhone" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="doctorExperienceFive" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="doctorExperienceFour" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="doctorExperienceOne" optional="YES" attributeType="String" syncable="YES"/>
@@ -21,6 +22,7 @@
         <attribute name="doctorImageMedicalLicense" optional="YES" attributeType="Binary" syncable="YES"/>
         <attribute name="doctorImageSpecialistLicense" optional="YES" attributeType="Binary" syncable="YES"/>
         <attribute name="doctorLanguage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="doctorLicenseNumber" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="doctorOneStarNumber" optional="YES" attributeType="Integer 32" minValueString="0" defaultValueString="0" syncable="YES"/>
         <attribute name="doctorProfession" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="doctorStar" optional="YES" attributeType="Float" minValueString="0" defaultValueString="0" syncable="YES"/>
@@ -60,7 +62,7 @@
     </entity>
     <elements>
         <element name="APNs" positionX="18" positionY="126" width="128" height="105"/>
-        <element name="Doctors" positionX="-27" positionY="18" width="128" height="330"/>
+        <element name="Doctors" positionX="-27" positionY="18" width="128" height="360"/>
         <element name="Persons" positionX="18" positionY="63" width="128" height="270"/>
         <element name="Test2" positionX="54" positionY="153" width="128" height="120"/>
         <element name="TimeSlot" positionX="18" positionY="126" width="128" height="120"/>

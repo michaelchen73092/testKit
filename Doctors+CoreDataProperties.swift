@@ -2,7 +2,7 @@
 //  Doctors+CoreDataProperties.swift
 //  testKit
 //
-//  Created by CHENWEI CHIH on 7/26/16.
+//  Created by CHENWEI CHIH on 7/27/16.
 //  Copyright © 2016 guest. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
@@ -33,5 +33,7 @@ extension Doctors {
     @NSManaged public var doctorExperienceThree: String?
     @NSManaged public var doctorExperienceFour: String?
     @NSManaged public var doctorExperienceFive: String?
+    @NSManaged public var doctorLicenseNumber: String?
+    @NSManaged public var doctorCellPhone: String?
 
 }
