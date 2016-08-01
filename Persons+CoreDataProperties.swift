@@ -2,7 +2,7 @@
 //  Persons+CoreDataProperties.swift
 //  testKit
 //
-//  Created by CHENWEI CHIH on 7/19/16.
+//  Created by CHENWEI CHIH on 8/1/16.
 //  Copyright © 2016 guest. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
@@ -20,6 +20,7 @@ extension Persons {
     @NSManaged public var favorateDoctors: NSObject?
     @NSManaged public var firstname: String?
     @NSManaged public var gender: String?
+    @NSManaged public var height: NSNumber?
     @NSManaged public var imageLocal: NSData?
     @NSManaged public var imageRemoteUrl: String?
     @NSManaged public var isdoctor: NSNumber?
@@ -27,7 +28,12 @@ extension Persons {
     @NSManaged public var locationLatitude: NSNumber?
     @NSManaged public var locationlongitude: NSNumber?
     @NSManaged public var password: String?
-    @NSManaged public var height: NSNumber?
     @NSManaged public var weight: NSNumber?
+    @NSManaged public var cellPhone: String?
+    @NSManaged public var doctorImageDiploma: NSData?
+    @NSManaged public var doctorImageID: NSData?
+    @NSManaged public var doctorImageMedicalLicense: NSData?
+    @NSManaged public var doctorImageSpecialistLicense: NSData?
+    @NSManaged public var doctorLicenseNumber: String?
 
 }
