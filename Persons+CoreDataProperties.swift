@@ -2,7 +2,7 @@
 //  Persons+CoreDataProperties.swift
 //  testKit
 //
-//  Created by CHENWEI CHIH on 8/1/16.
+//  Created by CHENWEI CHIH on 8/11/16.
 //  Copyright © 2016 guest. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
@@ -14,26 +14,17 @@ import CoreData
 
 extension Persons {
 
-    @NSManaged public var birthday: NSDate?
-    @NSManaged public var email: String?
-    @NSManaged public var ethnicity: String?
-    @NSManaged public var favorateDoctors: NSObject?
-    @NSManaged public var firstname: String?
-    @NSManaged public var gender: String?
-    @NSManaged public var height: NSNumber?
-    @NSManaged public var imageLocal: NSData?
-    @NSManaged public var imageRemoteUrl: String?
-    @NSManaged public var isdoctor: NSNumber?
-    @NSManaged public var lastname: String?
-    @NSManaged public var locationLatitude: NSNumber?
-    @NSManaged public var locationlongitude: NSNumber?
-    @NSManaged public var password: String?
-    @NSManaged public var weight: NSNumber?
+    @NSManaged public var applicationStatus: String?
     @NSManaged public var cellPhone: String?
     @NSManaged public var doctorImageDiploma: NSData?
     @NSManaged public var doctorImageID: NSData?
     @NSManaged public var doctorImageMedicalLicense: NSData?
     @NSManaged public var doctorImageSpecialistLicense: NSData?
     @NSManaged public var doctorLicenseNumber: String?
+    @NSManaged public var favorateDoctors: NSObject?
+    @NSManaged public var imageLocal: NSData?
+    @NSManaged public var isdoctor: NSNumber?
+    @NSManaged public var password: String?
+    @NSManaged public var email: String?
 
 }
