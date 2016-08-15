@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B51CBD91D6271880041C418 /* MedicalRecord+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B51CBD71D6271880041C418 /* MedicalRecord+CoreDataProperties.swift */; };
+		8B51CBDA1D6271880041C418 /* MedicalRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B51CBD81D6271880041C418 /* MedicalRecord.swift */; };
 		8B5A71751D5D2A5D00C26B7D /* PersonsPublic+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5A71731D5D2A5D00C26B7D /* PersonsPublic+CoreDataProperties.swift */; };
 		8B5A71761D5D2A5D00C26B7D /* PersonsPublic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5A71741D5D2A5D00C26B7D /* PersonsPublic.swift */; };
 		AC8C02D61D22106700F338BB /* testKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AC8C02D51D22106700F338BB /* testKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -32,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B51CBD71D6271880041C418 /* MedicalRecord+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MedicalRecord+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8B51CBD81D6271880041C418 /* MedicalRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicalRecord.swift; sourceTree = "<group>"; };
 		8B5A71731D5D2A5D00C26B7D /* PersonsPublic+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PersonsPublic+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		8B5A71741D5D2A5D00C26B7D /* PersonsPublic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonsPublic.swift; sourceTree = "<group>"; };
 		AC8C02D21D22106700F338BB /* testKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = testKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +75,8 @@
 		AC8C02C81D22106700F338BB = {
 			isa = PBXGroup;
 			children = (
+				8B51CBD71D6271880041C418 /* MedicalRecord+CoreDataProperties.swift */,
+				8B51CBD81D6271880041C418 /* MedicalRecord.swift */,
 				8B5A71731D5D2A5D00C26B7D /* PersonsPublic+CoreDataProperties.swift */,
 				8B5A71741D5D2A5D00C26B7D /* PersonsPublic.swift */,
 				AC8C03201D2331E500F338BB /* Test2+CoreDataProperties.swift */,
@@ -225,6 +231,8 @@
 				AC8C03221D2331E500F338BB /* Test2+CoreDataProperties.swift in Sources */,
 				AC8C03231D2331E500F338BB /* Test2.swift in Sources */,
 				AC8C03161D2327E000F338BB /* Persons+CoreDataProperties.swift in Sources */,
+				8B51CBD91D6271880041C418 /* MedicalRecord+CoreDataProperties.swift in Sources */,
+				8B51CBDA1D6271880041C418 /* MedicalRecord.swift in Sources */,
 				AC8C03131D23256F00F338BB /* PersonsModel.xcdatamodeld in Sources */,
 				AC8C03171D2327E000F338BB /* Persons.swift in Sources */,
 				8B5A71751D5D2A5D00C26B7D /* PersonsPublic+CoreDataProperties.swift in Sources */,

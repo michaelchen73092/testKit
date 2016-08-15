@@ -31,6 +31,22 @@
         <attribute name="doctorTwoStarNumber" optional="YES" attributeType="Integer 32" minValueString="0" defaultValueString="0" syncable="YES"/>
         <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
+    <entity name="MedicalRecord" representedClassName="MedicalRecord" syncable="YES">
+        <attribute name="diseases" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="doctorEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="doctorFirstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="doctorImageRemoteURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="doctorLastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="duration" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="medicines" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patientEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patientFirstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patientImageRemoteURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patientLastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="referral" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="treatments" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
     <entity name="Persons" representedClassName="Persons" syncable="YES">
         <attribute name="applicationStatus" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="cellPhone" optional="YES" attributeType="String" syncable="YES"/>
@@ -76,8 +92,9 @@
         <element name="APNs" positionX="-83" positionY="81" width="128" height="105"/>
         <element name="Doctors" positionX="-405" positionY="-27" width="128" height="390"/>
         <element name="Persons" positionX="-234" positionY="-27" width="128" height="225"/>
+        <element name="PersonsPublic" positionX="-207" positionY="99" width="128" height="210"/>
         <element name="Test2" positionX="97" positionY="195" width="128" height="120"/>
         <element name="TimeSlot" positionX="34" positionY="-45" width="128" height="120"/>
-        <element name="PersonsPublic" positionX="-207" positionY="99" width="128" height="210"/>
+        <element name="MedicalRecord" positionX="-207" positionY="99" width="128" height="255"/>
     </elements>
 </model>
