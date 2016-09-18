@@ -10,7 +10,7 @@ import Foundation
 import CoreData
 
 @objc(MedicalRecord)
-public class MedicalRecord: NSManagedObject {
+open class MedicalRecord: NSManagedObject {
 
 // Insert code here to add functionality to your managed object subclass
 

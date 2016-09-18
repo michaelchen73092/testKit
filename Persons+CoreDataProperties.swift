@@ -16,13 +16,13 @@ extension Persons {
 
     @NSManaged public var applicationStatus: String?
     @NSManaged public var cellPhone: String?
-    @NSManaged public var doctorImageDiploma: NSData?
-    @NSManaged public var doctorImageID: NSData?
-    @NSManaged public var doctorImageMedicalLicense: NSData?
-    @NSManaged public var doctorImageSpecialistLicense: NSData?
+    @NSManaged public var doctorImageDiploma: Data?
+    @NSManaged public var doctorImageID: Data?
+    @NSManaged public var doctorImageMedicalLicense: Data?
+    @NSManaged public var doctorImageSpecialistLicense: Data?
     @NSManaged public var doctorLicenseNumber: String?
     @NSManaged public var favorateDoctors: NSObject?
-    @NSManaged public var imageLocal: NSData?
+    @NSManaged public var imageLocal: Data?
     @NSManaged public var isdoctor: NSNumber?
     @NSManaged public var password: String?
     @NSManaged public var email: String?

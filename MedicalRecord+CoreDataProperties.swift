@@ -2,7 +2,7 @@
 //  MedicalRecord+CoreDataProperties.swift
 //  testKit
 //
-//  Created by CHENWEI CHIH on 8/15/16.
+//  Created by CHENWEI CHIH on 8/16/16.
 //  Copyright © 2016 guest. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
@@ -14,7 +14,7 @@ import CoreData
 
 extension MedicalRecord {
 
-    @NSManaged public var time: NSDate?
+    @NSManaged public var time: Date?
     @NSManaged public var duration: NSNumber?
     @NSManaged public var doctorFirstName: String?
     @NSManaged public var doctorLastName: String?
@@ -28,5 +28,7 @@ extension MedicalRecord {
     @NSManaged public var medicines: String?
     @NSManaged public var treatments: String?
     @NSManaged public var referral: NSNumber?
+    @NSManaged public var specialty: String?
+    @NSManaged public var specialtyTitle: String?
 
 }

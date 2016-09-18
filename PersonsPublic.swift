@@ -10,7 +10,7 @@ import Foundation
 import CoreData
 
 @objc(PersonsPublic)
-public class PersonsPublic: NSManagedObject {
+open class PersonsPublic: NSManagedObject {
 
 // Insert code here to add functionality to your managed object subclass
 

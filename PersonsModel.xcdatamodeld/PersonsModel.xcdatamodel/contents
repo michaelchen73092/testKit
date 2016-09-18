@@ -6,6 +6,13 @@
         <attribute name="lastname" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="token" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
+    <entity name="DoctorReviews" representedClassName="DoctorReviews" syncable="YES">
+        <attribute name="patientEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patientName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="review" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stars" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
     <entity name="Doctors" representedClassName="Doctors" syncable="YES">
         <attribute name="doctorCertificated" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
         <attribute name="doctorExperienceFive" optional="YES" attributeType="String" syncable="YES"/>
@@ -44,6 +51,8 @@
         <attribute name="patientImageRemoteURL" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="patientLastName" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="referral" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="specialty" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="specialtyTitle" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="time" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="treatments" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
@@ -91,10 +100,11 @@
     <elements>
         <element name="APNs" positionX="-83" positionY="81" width="128" height="105"/>
         <element name="Doctors" positionX="-405" positionY="-27" width="128" height="390"/>
+        <element name="MedicalRecord" positionX="-207" positionY="99" width="128" height="285"/>
         <element name="Persons" positionX="-234" positionY="-27" width="128" height="225"/>
         <element name="PersonsPublic" positionX="-207" positionY="99" width="128" height="210"/>
         <element name="Test2" positionX="97" positionY="195" width="128" height="120"/>
         <element name="TimeSlot" positionX="34" positionY="-45" width="128" height="120"/>
-        <element name="MedicalRecord" positionX="-207" positionY="99" width="128" height="255"/>
+        <element name="DoctorReviews" positionX="-207" positionY="99" width="128" height="120"/>
     </elements>
 </model>

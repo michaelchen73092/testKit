@@ -1,16 +1,16 @@
 //
-//  Persons.swift
+//  DoctorReviews.swift
 //  testKit
 //
-//  Created by guest on 6/28/16.
+//  Created by CHENWEI CHIH on 8/28/16.
 //  Copyright © 2016 guest. All rights reserved.
 //
 
 import Foundation
 import CoreData
 
-@objc(Persons)
-open class Persons: NSManagedObject {
+@objc(DoctorReviews)
+open class DoctorReviews: NSManagedObject {
 
 // Insert code here to add functionality to your managed object subclass
 

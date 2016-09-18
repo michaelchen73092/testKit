@@ -16,7 +16,7 @@ extension PersonsPublic {
 
     @NSManaged public var firstname: String?
     @NSManaged public var lastname: String?
-    @NSManaged public var birthday: NSDate?
+    @NSManaged public var birthday: Date?
     @NSManaged public var ethnicity: String?
     @NSManaged public var gender: NSNumber?
     @NSManaged public var height: NSNumber?
